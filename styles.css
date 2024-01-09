@@ -1,0 +1,115 @@
+/*Theme colors: purple, orange, green, black,  and */
+
+/* Custom Font familys */
+
+/* @font-face {
+  font-family: 'Creepster';
+  src: url(Creepster-Regular.tff) format('truetype');
+} */
+
+/* Top Container */
+.top-section {
+  background-color: black;
+  position: relative;
+  padding: 1%;
+
+}
+.logo{
+  /* border: 5px;
+  border-style: solid;
+  border-color: #006600 #6600cc #CB6015 blue; */
+  width: 25%;
+  height: 25%;
+}
+.logo-image{
+  text-align: center;
+  /* display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%; */
+}
+
+.section-two{
+  text-align: center;
+
+    width: 100%;
+  padding-bottom: 50px;
+    position: absolute;
+    background: linear-gradient(45deg,#6600cc,#CB6015,#006600 );
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+.productimg{
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+.navbar-light{
+  background-color: orange !important;
+}
+
+.navbar{
+  color: #6600cc;
+}
+
+.btn{
+  background-color: purple;
+}
+
+.pricing-column {
+  padding: 3% 3%;
+}
+
+.card-pics{
+  width: 100px;
+  height: 100px;
+}
+
+.card{
+  text-align: center;
+}
+
+.btn-outline-dark {
+  text-shadow: 2px 2px 5px green;
+  background-color: orange;
+  color: purple;
+  font-weight: bold;
+}
+.btn-outline-dark:hover{
+  background-color: #00b300;
+  color: purple;
+
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  color: transparent;
+  background-image: linear-gradient(to right, black, green, purple, orange );
+  -webkit-background-clip: text;
+  animation: animate 30s linear infinite;
+  background-size: 1000%;
+}
+
+@keyframes animate {
+0%
+{
+  background-position: 0% 100%;
+}
+50%
+{
+  background-position: 100% 0%;
+}
+100%
+{
+  background-position: 0% 100%;
+}
+}
